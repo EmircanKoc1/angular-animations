@@ -1,0 +1,22 @@
+$box-sizing : border-box;
+
+
+.container {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    box-sizing: $box-sizing;
+    justify-content:  center;
+    display: flex;
+    align-items: center;
+}
+
+.spin {
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    border: 20px solid blue;
+    box-sizing: $box-sizing;
+    border-right: 20px solid white;
+}
