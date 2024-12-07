@@ -9,11 +9,12 @@ import { LeftResizeAndStartGradientComponent } from "./components/left-resize-an
 import { ListAnimationComponent } from "./components/list-animation/list-animation.component";
 import { IncrementDecrementAnimationComponent } from "./components/increment-decrement-animation/increment-decrement-animation.component";
 import { AnimationBuilderSampleComponent } from "./components/animation-builder-sample/animation-builder-sample.component";
+import { ReusableAnimationSampleComponent } from "./components/reusable-animation-sample/reusable-animation-sample.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [FadeinfadeoutComponent, ResizeComponent, SpinComponent, OpacityAndMoveLeftComponent, LeftResizeAndStartGradientComponent, ListAnimationComponent, IncrementDecrementAnimationComponent, AnimationBuilderSampleComponent],
+  imports: [FadeinfadeoutComponent, ResizeComponent, SpinComponent, OpacityAndMoveLeftComponent, LeftResizeAndStartGradientComponent, ListAnimationComponent, IncrementDecrementAnimationComponent, AnimationBuilderSampleComponent, ReusableAnimationSampleComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
