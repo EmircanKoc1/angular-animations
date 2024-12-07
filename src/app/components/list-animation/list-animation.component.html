@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="list-container">
+        <ul >
+            @for (listItem of listItems; track $index) {
+            <li [@itemAnimation]>{{listItem}}</li>
+            }
+        </ul>
+    </div>
+
+    <div class="button-container">
+        <button (click)="addItem()">add item</button>
+        <button (click)="deleteItem()">delete item</button>
+    </div>
+</div>
