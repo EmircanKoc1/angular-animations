@@ -1,0 +1,8 @@
+<!-- <ul [@listAnimation]="items.length">
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul> -->
+<button (click)="removeItem()">Kaldır</button>
+<button (click)="addItem()">Ekle</button>
+
+<br>
+<div  [@listAnimation]="items.length" class="box"></div>
